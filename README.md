@@ -4,7 +4,7 @@ Universidad del Valle, Desarrollo de Software II: Taller #3: GitHub
 
 
 Presentado por: 
-      Juan Felipe Orozco Escobar
-      Sebastian Balanta
-      Cristian Camilo Jurado
-      Monica Marcela Llano
+      Cristian Camilo Jurado		1324366
+      Sebastian Balanta 		1723609
+      Juan Felipe Orozco Escobar 	1426244
+      Monica Marcela Llano		1323319

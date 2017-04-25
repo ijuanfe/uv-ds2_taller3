@@ -1,10 +1,22 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-package tallergitnetbeans;
+    Universidad del Valle
+    Asignatura: Desarrollo de Software II 750092M
+    Tema: Taller 3 - GitHub
+    Archivo: CalculadoraSimple.java
+    Version: 1.0
+    Fecha de creacion: 20 abril 2017
+    Autores:   
+                Juan Felipe Orozco Escobar	1426244
+                Sebastian Balanta		1723609
+                Cristian Camilo Jurado		1324366
+                Monica Marcela Llano		1323319
 
+    Responsabilidad: Interfaz que simula una calculadora que suma, resta, multiplica y divide dos numeros
+
+    Colaboracion: Extiende de javax.swing.JFrame
+*/
+
+package tallergitnetbeans;
 
 public class CalculadoraSimple extends javax.swing.JFrame {
 
@@ -129,7 +141,8 @@ public class CalculadoraSimple extends javax.swing.JFrame {
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
-
+    
+    // Metodo para hacer la suma de dos numeros
     private void btn_sumaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_sumaActionPerformed
         
         double valor1 = 0;

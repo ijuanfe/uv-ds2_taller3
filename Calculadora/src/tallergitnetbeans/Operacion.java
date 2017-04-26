@@ -25,7 +25,7 @@ public class Operacion {
         return resultado;
     }
     
-        public double Multiplicacion() {
+    public double Multiplicacion() {
         double resultado = 0;
         resultado = this.num1 * this.num2;   
         return resultado;

@@ -231,8 +231,12 @@ public class CalculadoraSimple extends javax.swing.JFrame {
 
         @Override
         public void actionPerformed(ActionEvent e) {
-            
-            
+            if(txt_valor1.getText().isEmpty() || txt_valor2.getText().isEmpty()){
+                JOptionPane.showMessageDialog( null,"¡Por favor, llene los dos campos!");
+            }else{
+                operacion = new Operacion(Double.parseDouble(txt_valor1.getText()), Double.parseDouble(txt_valor2.getText()));
+                txt_resultado.setText(Double.toString(operacion.Multiplicacion()));
+            }                
         }
     }
     

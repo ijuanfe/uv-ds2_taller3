@@ -161,25 +161,6 @@ public class CalculadoraSimple extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
     
-    // Metodo para hacer la suma de dos numeros
-    private void btn_sumaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_sumaActionPerformed
-        
-        
-
-    }//GEN-LAST:event_btn_sumaActionPerformed
-
-    private void btn_restaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_restaActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_btn_restaActionPerformed
-
-    private void btn_multiplicacionActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_multiplicacionActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_btn_multiplicacionActionPerformed
-
-    private void btn_divisionActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_divisionActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_btn_divisionActionPerformed
-
     /**
      * @param args the command line arguments
      */

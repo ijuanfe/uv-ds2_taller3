@@ -5,6 +5,8 @@
  */
 package tallergitnetbeans;
 
+import javax.swing.JOptionPane;
+
 /**
  *
  *
@@ -29,6 +31,17 @@ public class Operacion {
         double resultado = 0;
         resultado = this.num1 * this.num2;   
         return resultado;
+    }
+    
+    public double Division() {
+        double resultado = 0;
+        if (this.num2 != 0){
+        resultado = this.num1 / this.num2;   
+        return resultado; 
+        }else {
+            JOptionPane.showMessageDialog( null,"Error");
+            return resultado;
+        }
     }
     
     public double Resta() {

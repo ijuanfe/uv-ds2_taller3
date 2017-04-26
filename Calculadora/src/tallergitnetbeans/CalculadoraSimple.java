@@ -161,25 +161,6 @@ public class CalculadoraSimple extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
     
-    // Metodo para hacer la suma de dos numeros
-    private void btn_sumaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_sumaActionPerformed
-        
-        
-
-    }//GEN-LAST:event_btn_sumaActionPerformed
-
-    private void btn_restaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_restaActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_btn_restaActionPerformed
-
-    private void btn_multiplicacionActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_multiplicacionActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_btn_multiplicacionActionPerformed
-
-    private void btn_divisionActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_divisionActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_btn_divisionActionPerformed
-
     /**
      * @param args the command line arguments
      */
@@ -231,8 +212,12 @@ public class CalculadoraSimple extends javax.swing.JFrame {
 
         @Override
         public void actionPerformed(ActionEvent e) {
-            
-            
+            if(txt_valor1.getText().isEmpty() || txt_valor2.getText().isEmpty()){
+                JOptionPane.showMessageDialog( null,"¡Por favor, llene los dos campos!");
+            }else{
+                operacion = new Operacion(Double.parseDouble(txt_valor1.getText()), Double.parseDouble(txt_valor2.getText()));
+                txt_resultado.setText(Double.toString(operacion.Multiplicacion()));
+            }                
         }
     }
     

@@ -94,9 +94,6 @@
       <Properties>
         <Property name="text" type="java.lang.String" value="Suma"/>
       </Properties>
-      <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btn_sumaActionPerformed"/>
-      </Events>
     </Component>
     <Component class="javax.swing.JTextField" name="txt_valor1">
     </Component>
@@ -126,25 +123,16 @@
       <Properties>
         <Property name="text" type="java.lang.String" value="Resta"/>
       </Properties>
-      <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btn_restaActionPerformed"/>
-      </Events>
     </Component>
     <Component class="javax.swing.JButton" name="btn_multiplicacion">
       <Properties>
         <Property name="text" type="java.lang.String" value="Multiplicaci&#xf3;n"/>
       </Properties>
-      <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btn_multiplicacionActionPerformed"/>
-      </Events>
     </Component>
     <Component class="javax.swing.JButton" name="btn_division">
       <Properties>
         <Property name="text" type="java.lang.String" value="Divisi&#xf3;n"/>
       </Properties>
-      <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btn_divisionActionPerformed"/>
-      </Events>
     </Component>
   </SubComponents>
 </Form>

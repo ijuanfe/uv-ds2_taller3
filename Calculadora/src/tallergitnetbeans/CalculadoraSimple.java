@@ -69,11 +69,6 @@ public class CalculadoraSimple extends javax.swing.JFrame {
         setResizable(false);
 
         btn_suma.setText("Suma");
-        btn_suma.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btn_sumaActionPerformed(evt);
-            }
-        });
 
         lbl_valor1.setText("Valor 1");
 
@@ -84,25 +79,10 @@ public class CalculadoraSimple extends javax.swing.JFrame {
         txt_resultado.setEditable(false);
 
         btn_resta.setText("Resta");
-        btn_resta.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btn_restaActionPerformed(evt);
-            }
-        });
 
         btn_multiplicacion.setText("Multiplicación");
-        btn_multiplicacion.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btn_multiplicacionActionPerformed(evt);
-            }
-        });
 
         btn_division.setText("División");
-        btn_division.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btn_divisionActionPerformed(evt);
-            }
-        });
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -160,7 +140,7 @@ public class CalculadoraSimple extends javax.swing.JFrame {
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
-    
+   
     /**
      * @param args the command line arguments
      */
